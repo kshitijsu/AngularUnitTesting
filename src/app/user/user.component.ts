@@ -1,0 +1,18 @@
+import { Component, OnInit } from "@angular/core";
+
+@Component({
+  selector: "app-user",
+  templateUrl: "./user.component.html",
+  styleUrls: ["./user.component.css"],
+})
+export class UserComponent implements OnInit {
+  userName: string = "Kshitij";
+
+  constructor() {}
+
+  ngOnInit() {}
+
+  sum(num1: number, num2: number) {
+    return num1 + num2;
+  }
+}
